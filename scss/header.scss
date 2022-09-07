@@ -1,0 +1,36 @@
+header{
+	display: flex;
+	height:100%;
+	background-color: #FFFF;
+	opacity: 0.8;
+	padding: 10px;
+	position: sticky;
+	top: 0;
+	margin-bottom: 50px 
+}
+nav{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	& a{
+		font-weight: 400;
+		font-size: 2rem;
+		padding-right: 30px;
+		text-decoration: none;
+		color: black;
+		}
+	& ul{
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+	}
+	& ul li{
+		display: inline;
+	}
+}
+.logo{
+	padding-left: 40px;
+	padding-top: 1px;
+
+}
