@@ -7,18 +7,17 @@ div{
 	border-radius: 10px;
 	border: none;
 	& th{
-
 	text-align: center;
-	color: white;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 3rem;
+	color: $colorSecundario;
+	font-family: $fuenteSecundario;
+	font-size: $subTitulos;
 	border: none;
 	}
 	& td{
 	text-align: center;
-	color: white;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 2.5rem;
+	color: $colorSecundario;
+	font-family: $fuenteSecundario;
+	font-size: $subMenor;
 	border: none;
 	padding: 5px;
 	}

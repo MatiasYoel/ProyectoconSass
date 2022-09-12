@@ -5,9 +5,11 @@
 html{
 	font-size: 62.5%;
 }
-@import "header";
-@import "body";
-@import "footer";
-@import "titulos";
-@import "formulario";
-@import "servicios";
+@import "_colores";
+@import "_fuentes";
+@import "_header";
+@import "_body";
+@import "_footer";
+@import "_titulos";
+@import "_formulario";
+@import "_servicios";

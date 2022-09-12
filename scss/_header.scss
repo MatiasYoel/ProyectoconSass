@@ -1,7 +1,7 @@
 header{
 	display: flex;
 	height:100%;
-	background-color: #FFFF;
+	background-color: $colorSecundario;
 	opacity: 0.8;
 	padding: 10px;
 	position: sticky;
@@ -15,10 +15,10 @@ nav{
 	justify-content: space-between;
 	& a{
 		font-weight: 400;
-		font-size: 2rem;
+		font-size: $formulario;
 		padding-right: 30px;
 		text-decoration: none;
-		color: black;
+		color: $colorPrimario;
 		}
 	& ul{
 		display: flex;

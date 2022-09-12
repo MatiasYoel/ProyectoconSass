@@ -8,18 +8,18 @@ form{
 	border-radius: 10px;
 	& label, div{
 			text-align: center;
-			color: white;
-			font-family: 'Roboto Condensed', sans-serif;
-			font-size: 2rem;
+			color: $colorSecundario;
+			font-family: $fuenteSecundario;
+			font-size: $formulario;
 	}
 	& input, textarea{
 		width: 100%;
 		margin-bottom: 15px;
 		padding: 7px;
 		box-sizing: border-box;
-		font-family: 'Roboto Condensed', sans-serif;
+		font-family: $fuenteSecundario;
 		font-weight: 700;
-		font-size: 1.5rem;
+		font-size: $parrafoFooter;
 
 	}
 	& textarea{

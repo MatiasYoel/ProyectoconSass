@@ -1,0 +1,17 @@
+footer{
+	background-color: $colorPrimario;
+	text-align: center;
+	color: $colorSecundario;
+	display: flex;
+	justify-content: space-around;
+	& div p{
+			font-size: $parrafoFooter;	
+	}
+	& div img{
+				height: 30px;
+	}
+	& section img{
+					height: 150px;
+	}
+}
+
