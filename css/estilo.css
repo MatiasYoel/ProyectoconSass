@@ -55,38 +55,27 @@ footer {
   footer section img {
     height: 150px; }
 
-.bienvenida {
+.bienvenida, .bienvenida--subTitulo, .bienvenida--subTituloMenor, .bienvenida--subFooter {
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 6rem;
   font-weight: 100;
   line-height: 1.2em; }
 
-.subTitulo {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 4rem;
-  font-weight: 100;
-  line-height: 1.2em; }
+.bienvenida--subTitulo {
+  font-size: 4rem; }
 
-.subTituloMenor {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 100;
-  line-height: 1.2em; }
+.bienvenida--subTituloMenor {
+  font-size: 2.5rem; }
+
+.bienvenida--subFooter {
+  font-size: 2.3rem;
+  line-height: 1.7em; }
 
 p {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 2.3rem; }
-
-.subFooter {
-  font-size: 2.3rem;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
-  line-height: 1.7em; }
 
 form {
   width: 450px;

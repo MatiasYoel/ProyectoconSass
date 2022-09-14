@@ -1,11 +1,20 @@
+$estiloForm:(
+	width:450px,
+	margin:auto,
+	background: rgba(0, 0, 0, 0.4),
+	padding:10px 20px,
+	box-sizing:border-box,
+	margin-top:20px,
+	border-radius:10px);
 form{
-	width: 450px;
-	margin: auto;
-	background: rgba(0, 0, 0, 0.4);
-	padding: 10px 20px;
-	box-sizing: border-box;
-	margin-top: 20px;
-	border-radius: 10px;
+	width: map-get($estiloForm, width);
+	margin: map-get($estiloForm, margin);
+	background: map-get($estiloForm, background);
+	padding: map-get($estiloForm, padding);
+	box-sizing: map-get($estiloForm, box-sizing);
+	margin-top: map-get($estiloForm, margin-top);
+	border-radius: map-get($estiloForm, border-radius);
+
 	& label, div{
 			text-align: center;
 			color: $colorSecundario;

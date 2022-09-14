@@ -1,3 +1,4 @@
+
 .bienvenida{
 	color: $colorSecundario;
     font-family: $fuentePrincipal;
@@ -6,19 +7,18 @@
     line-height: 1.2em;
 }
 
-.subTitulo{
-	color: $colorSecundario;
-	font-family: $fuentePrincipal;
+.bienvenida--subTitulo{
+	@extend .bienvenida;
     font-size: $subTitulos;
-    font-weight: 100;
-    line-height: 1.2em;
 }
-.subTituloMenor{
-	color: $colorSecundario;
-    font-family: $fuentePrincipal;
+.bienvenida--subTituloMenor{
+    @extend .bienvenida;
     font-size: $subMenor;
-    font-weight: 100;
-    line-height: 1.2em;
+}
+.bienvenida--subFooter{
+    @extend .bienvenida;
+    font-size: $parrafos;
+    line-height: 1.7em;
 }
 p{
 	color: $colorSecundario;
@@ -26,10 +26,3 @@ p{
 	font-size: $parrafos;
 }
 
-.subFooter{
-    font-size: $parrafos;
-    color: $colorSecundario;
-    font-family: $fuentePrincipal;
-    font-weight: 100;
-    line-height: 1.7em;
-}
